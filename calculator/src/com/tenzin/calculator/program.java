@@ -31,13 +31,10 @@ public class program {
 
             String choice = input.next();
             if (choice.equalsIgnoreCase("1")) {
-
-                System.out.println(ch.add(nextDouble, nDouble));
+              System.out.println(ch.add(nextDouble, nDouble));
             } else if (choice.equalsIgnoreCase("2")) {
                 System.out.println(ch.sub(nextDouble, nDouble));
             } else if (choice.equalsIgnoreCase("3")) {
-                System.out.println(ch.mul(nextDouble, nDouble));
-            } else if (choice.equalsIgnoreCase("4")) {
                 System.out.println(ch.mul(nextDouble, nDouble));
             } else if (choice.equalsIgnoreCase("4")) {
                 System.out.println(ch.div(nextDouble, nDouble));
@@ -53,6 +50,7 @@ public class program {
             String select = input.next();
             if (select.equalsIgnoreCase("n"))
             System.exit(0);
+            
 
         }
     }
